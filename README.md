@@ -1,8 +1,8 @@
-# Content Security Policy Builder
+# CSP Header Toggle Builder
 
 This tool builds a Content-Security-Policy header by toggling directives and choosing their allowed sources. It assembles the header string live, flags the sources that weaken the policy, and lets you copy the result.
 
-**Live demo:** https://0xelitesystem.github.io/content-security-policy-builder/
+**Live demo:** https://0xelitesystem.github.io/csp-header-toggle-builder/
 
 ## What it does
 
@@ -36,8 +36,8 @@ Open `index.html` in any modern browser, or host it as a static page. No build s
 To get your own copy:
 
 ```
-git clone https://github.com/0xelitesystem/content-security-policy-builder
-cd content-security-policy-builder
+git clone https://github.com/0xelitesystem/csp-header-toggle-builder
+cd csp-header-toggle-builder
 ```
 
 Then open `index.html` directly, or serve the folder with `python -m http.server` and visit http://localhost:8000/.
